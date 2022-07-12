@@ -26,3 +26,8 @@ ubuntu_local_setenv:
 test:
 #	cargo install --force --path .
 	rustlings verify
+
+file:
+	touch file
+	echo "hello" > file
+	echo "world" >> file
